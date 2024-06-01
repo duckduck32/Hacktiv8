@@ -62,4 +62,4 @@ for (present in arrayFilter) {
 console.log("Jumlah Present True ada " + trueCount);
 console.log(arrayFilter);
 
-//Assignment 1 Sesi 2 Leon Jonathan Farrell
+// Leon Jonathan Farrell, Homework 1
