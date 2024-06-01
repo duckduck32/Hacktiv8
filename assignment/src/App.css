@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+}
+
+.navbar {
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  opacity: 0.6;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+}
+
+.Page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
