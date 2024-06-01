@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  padding-left: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar p {
+  float: left;
+  color: white;
+}
+
+.menus {
+  padding-left: 80px;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+.rightNavigation p {
+  padding-right: 20px;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+.event {
+  height: 300px;
+  background-color: lightgrey;
+  margin: 15px 15px;
+  display: flex;
+}
+
+.eventThumbnail {
+  height: 250px;
+  width: 250px;
+  padding: 25px 25px;
+}
+
+.eventDetails {
+  display: flex;
+  font-size: 18px;
+}
+
+.leftDetails {
+  padding-right: 20px;
+}
+
+.joinButton button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 200px;
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+.nextContainer {
+  height: auto;
+  background-color: lightgrey;
+  margin: 10px 70px;
+}
+
+.nextContainer p{
+  padding-left: 30px;
+}
+
+.nextTitle {
+  padding-top: 5px; 
+  font-weight: bold;
+  font-size: 20px
+}
+
+.nextTime {
+  opacity: 50%;
+}
+
+.nextContents{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.aboutDescription {
+  padding-left: 70px;
+}
+
+.aboutDescription p{
+  font-weight: bold;
+}
+
+.TitleContainer{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+
+.TitleContainer p{
+  font-weight: bold;
+  margin-top: 35px
+}
+
+.membersContainer {
+  height: auto;
+  background-color: lightgrey;
+  margin: 10px 70px;
+  display: flex;
+}
+
+.memberThumbnail {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin: 15px 15px;
+}
+
+.membersTextContainer p{
+  font-weight: bold;
+}
+
+.organizerList{
+  display: flex;
+}
+
+.firstOrganizerList{
+  width: auto;
+  padding-right: 30px
+}
+
+.organizersText{
+  padding-top: 15px
+}
+
+.allPastContainer{
+  height: auto;
+  margin: 10px 70px;
+}
+
+.pastEventContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pastEvent{
+  width: 500px;
+  padding: 20px 20px;
+  background-color: lightgrey;
+}
+
+.pastEvent p{
+  font-weight: bold;
+
+}
+
+.flexingWent{
+  display: flex;
+}
+
+.flexingWent p{
+  padding-right: 5px;
+}
+
+.pastEvent button {
+  background-color: rgb(82, 57, 207);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.footerContainer {
+  height: auto;
+  margin: 10px 70px;
+  text-align: center;
+}
+
+.past{
+  margin-bottom: 50px;
+}
