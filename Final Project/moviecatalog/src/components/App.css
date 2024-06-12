@@ -1,0 +1,63 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #f36f21;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .search {
+    display: flex;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
+  
+  .loading {
+    margin: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
