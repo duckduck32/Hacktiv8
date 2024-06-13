@@ -1,12 +1,11 @@
-// src/App.js
-import React, { useState, useEffect } from 'react';
-import Header from './Header';
-import Movie from './Movie';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Header from "./Header";
+import Movie from "./Movie";
+import "./App.css";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
-  const [searchValue, setSearchValue] = useState('');
+  const [searchValue, setSearchValue] = useState("");
   const [loading, setLoading] = useState(false);
 
   const getMovieRequest = async (searchValue) => {
@@ -30,18 +29,23 @@ const App = () => {
   };
 
   useEffect(() => {
-    getMovieRequest('Man');
+    getMovieRequest("Man");
   }, []);
 
   return (
-    <div className='App'>
-      <Header title="FinProH8" searchValue={searchValue} setSearchValue={setSearchValue} search={getMovieRequest} />
+    <div className="App">
+      <Header
+        title="FinProH8"
+        searchValue={searchValue}
+        setSearchValue={setSearchValue}
+        search={getMovieRequest}
+      />
       {loading ? (
-        <div className='loading'>
+        <div className="loading">
           <p>Loading...</p>
         </div>
       ) : (
-        <div className='movie-list'>
+        <div className="movie-list">
           {movies.map((movie, index) => (
             <Movie key={index} movie={movie} />
           ))}
@@ -49,6 +53,6 @@ const App = () => {
       )}
     </div>
   );
-}
+};
 
 export default App;

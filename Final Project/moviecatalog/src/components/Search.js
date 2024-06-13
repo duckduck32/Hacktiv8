@@ -1,5 +1,4 @@
-// src/Search.js
-import React from 'react';
+import React from "react";
 
 const Search = ({ searchValue, setSearchValue, search }) => {
   const handleSearchInputChanges = (e) => {
@@ -12,7 +11,7 @@ const Search = ({ searchValue, setSearchValue, search }) => {
   };
 
   return (
-    <form className='search' onSubmit={callSearchFunction}>
+    <form className="search" onSubmit={callSearchFunction}>
       <input
         value={searchValue}
         onChange={handleSearchInputChanges}
