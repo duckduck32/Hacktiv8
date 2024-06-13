@@ -3,7 +3,7 @@
   }
   
   .header {
-    background-color: #f36f21;
+    background-color: orange;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -57,6 +57,5 @@
   .loading {
     margin: 20px;
     font-size: 24px;
-    color: #333;
   }
   
